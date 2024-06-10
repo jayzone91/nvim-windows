@@ -12,9 +12,9 @@ require("autocommands")
 
 -- Check if git is present
 if vim.fn.executable("git") ~= 1 then
-	print("You have to install Git on your System to use this config")
-	vim.fn.getchar()
-	os.exit()
+  print("You have to install Git on your System to use this config")
+  vim.fn.getchar()
+  os.exit()
 end
 
 -- [[
